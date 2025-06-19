@@ -1,16 +1,25 @@
-* {
-    font-family: 'Times New Roman';
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
-h1 {
-    text-align: center;
-    text-transform: capitalize;
+#Navbar {
+    height: 60px;
+    background-color: #0f1111;
+
 }
 
-#outer {
+button {
+    background-color: #f08804;
+}
+
+#Logo {
+    color: #f08804;
     font-size: 25px;
 }
 
-#inner {
-    font-size: 10px;
+a {
+    margin-right: 200px;
+    text-decoration: none;
 }
