@@ -1,0 +1,36 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+    /* transition: all 1s steps(3) 1s; */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transform: rotate(90deg); */
+     /* transition: all 2s ease-in;
+    transform: skew(30deg); */
+    animation: colorAnimation 2s ease-in 1s infinite normal;
+}
+
+@keyframes colorAnimation {
+    from {
+        left: 0px;
+        background-color: yellow;
+    }
+    to {
+        left: 200px;
+        background-color: red; 
+        color: white;
+    }
+}
+div:hover {
+    /* background-color: lightblue;
+    color: white;
+    font-size: 20px; */
+    transform: rotate(180deg);
+}
+
+div:active {
+     background-color: red;
+}
